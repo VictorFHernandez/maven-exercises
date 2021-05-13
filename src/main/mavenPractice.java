@@ -14,5 +14,6 @@ public class mavenPractice {
         }
         System.out.println(StringUtils.swapCase(userInput));
         System.out.println(StringUtils.reverse(userInput));
+        System.out.println(StringUtils.repeat(userInput + " ", 50));
     }
 }

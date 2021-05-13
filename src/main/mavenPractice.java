@@ -1,5 +1,4 @@
 import org.apache.commons.lang3.StringUtils;
-
 import java.util.Scanner;
 
 public class mavenPractice {
@@ -18,7 +17,7 @@ public class mavenPractice {
         System.out.println(StringUtils.reverse(userInput));
         System.out.println(StringUtils.repeat(userInput + " ", 50));
         if(StringUtils.isEmpty(userInput)){
-            System.out.println("BAKA!.. you did't write anything");
+            System.out.println("BAKA!.. you didn't write anything");
         }else{
             System.out.println("Thanks for writing a String, You're Awesome :)");
         }

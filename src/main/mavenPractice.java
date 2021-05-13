@@ -12,5 +12,6 @@ public class mavenPractice {
         }else{
             System.out.println(userInput + " is a String");
         }
+        System.out.println(StringUtils.swapCase(userInput));
     }
 }

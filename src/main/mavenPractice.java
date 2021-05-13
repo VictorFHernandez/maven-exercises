@@ -13,5 +13,6 @@ public class mavenPractice {
             System.out.println(userInput + " is a String");
         }
         System.out.println(StringUtils.swapCase(userInput));
+        System.out.println(StringUtils.reverse(userInput));
     }
 }
